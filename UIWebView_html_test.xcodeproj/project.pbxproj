@@ -21,6 +21,7 @@
 		7FC0CED5181F001F002902FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0CEB7181F001F002902FF /* UIKit.framework */; };
 		7FC0CEDD181F001F002902FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FC0CEDB181F001F002902FF /* InfoPlist.strings */; };
 		7FC0CEDF181F001F002902FF /* UIWebView_html_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0CEDE181F001F002902FF /* UIWebView_html_testTests.m */; };
+		7FC0CEE9181F00A8002902FF /* html_test.html in Resources */ = {isa = PBXBuildFile; fileRef = 7FC0CEE8181F00A8002902FF /* html_test.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		7FC0CEDA181F001F002902FF /* UIWebView_html_testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWebView_html_testTests-Info.plist"; sourceTree = "<group>"; };
 		7FC0CEDC181F001F002902FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7FC0CEDE181F001F002902FF /* UIWebView_html_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebView_html_testTests.m; sourceTree = "<group>"; };
+		7FC0CEE8181F00A8002902FF /* html_test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = html_test.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		7FC0CEA7181F001F002902FF = {
 			isa = PBXGroup;
 			children = (
+				7FC0CEE8181F00A8002902FF /* html_test.html */,
 				7FC0CEB9181F001F002902FF /* UIWebView_html_test */,
 				7FC0CED8181F001F002902FF /* UIWebView_html_testTests */,
 				7FC0CEB2181F001F002902FF /* Frameworks */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FC0CECC181F001F002902FF /* Images.xcassets in Resources */,
+				7FC0CEE9181F00A8002902FF /* html_test.html in Resources */,
 				7FC0CEBE181F001F002902FF /* InfoPlist.strings in Resources */,
 				7FC0CEC7181F001F002902FF /* Main.storyboard in Resources */,
 			);
