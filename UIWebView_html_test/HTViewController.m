@@ -20,12 +20,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	NSString *myHTML = [NSString stringWithContentsOfURL:
-						[NSURL URLWithString:@"https://raw.github.com/wh1pch81n/headfirst_html/master/ch1_p28_headFirstLounge.html"]
+						[NSURL URLWithString:@"https://raw.github.com/wh1pch81n/uiwebview_html_test/master/html_test.html"]
 												encoding:NSUTF8StringEncoding
 												   error:nil];
-											
-						
-						//myHTML = @"<!doctype html><html><head><title>this is a title</title><meta charset=\"utf-8\">	</head>	<body>	<p>this is a paragraph</p>	</body>	</html>";
+
 	[[self webView] loadHTMLString:myHTML baseURL:nil];
 }
 
