@@ -3,17 +3,33 @@
 	<head>
 		<meta charset="utf-8">
 		<title>this is a title</title>
-		
-			<style type="text/css">
-				body {
+		<style type="text/css">
+			body {
 					background-color: lightblue;
-				}
+			}
+			
 			p {
 				font-family: monospace;
 			}
-				</style>
+			
+			canvas {
+				border: this solid black;
+			}
+		</style>
+		<script>
+			window.onload = function() {
+				document.write("hello world");
+				var screen = document.getElementById("screen");
+				var context = screen.getContext("2d");
+				
+				context.fillRect(10, 10, 30, 30);
+			}
+		</script>
 	</head>
 	<body>
 		<p>this is a paragraph</p>
+		<br>
+		<canvas id="screen" width="300" height="200"></canvas>
+		
 	</body>
 </html>
